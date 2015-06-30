@@ -1,0 +1,14 @@
+23:29:06 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2471
+23:29:07 INFO  : XSDB server has started successfully.
+23:30:10 ERROR :  [Hsi 55-1464] Hardware instance  not found in the design
+23:30:10 INFO  : Project 'hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+23:30:10 ERROR :  [Hsi 55-1546] Processor Instance  doesn't exist in Xml/HwDb
+23:31:01 INFO  : Project 'hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+23:31:42 INFO  : Saving repository preferences.
+23:31:42 INFO  : Reading in cores from local repositories: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+23:31:42 INFO  : Cleaning BSP projects in the workspace.
+23:31:50 INFO  : Saving repository preferences.
+23:33:32 INFO  : BSP Project P/standalone_bsp_amp has been successfully migrated.
+23:50:23 INFO  : BSP Project P/freertos_zynq_bsp_amp has been successfully migrated.

@@ -1,0 +1,12 @@
+
+
+the_ROM_image:
+{
+
+	[bootloader] ../fsbl/Debug/fsbl.elf
+               ../hw_platform_0/TAIGA_wrapper.bit
+	             ../app_cpu0/Debug/app_cpu0.elf
+	             ../app_production/Debug/app_production.elf
+
+}
+
