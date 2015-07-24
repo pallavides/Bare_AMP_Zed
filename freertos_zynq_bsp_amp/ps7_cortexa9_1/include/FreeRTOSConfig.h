@@ -67,7 +67,7 @@
 
 #define configUSE_CO_ROUTINES 0
 
-#define configTICK_RATE_HZ ( ( portTickType ) (200) )
+#define configTICK_RATE_HZ ( ( portTickType ) (1000) )
 
 #define configMAX_PRIORITIES ( ( unsigned portBASE_TYPE ) 4)
 

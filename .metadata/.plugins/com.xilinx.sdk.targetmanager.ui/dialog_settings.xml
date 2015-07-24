@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="&lt;None&gt;" key="hw_platform_0-TAIGA_i/backup_controller-initElf"/>
+	<item value="Auto Detect" key="hw_platform_0-device"/>
+	<item value="Local" key="hw_platform_0-target"/>
+	<item value="hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="TAIGA_wrapper.mmi" key="hw_platform_0-bmmFile"/>
+	<item value="TAIGA_wrapper.bit" key="hw_platform_0-bitFile"/>
+	<item value="&lt;None&gt;" key="hw_platform_0-TAIGA_i/IO_intermediary-initElf"/>
+</section>

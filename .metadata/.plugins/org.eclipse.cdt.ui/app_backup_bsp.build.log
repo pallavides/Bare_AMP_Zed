@@ -1,0 +1,42 @@
+19:54:41 **** Build of project app_backup_bsp ****
+make -k all 
+Running Make include in backup_controller/libsrc/bram_v4_0/src
+make -C backup_controller/libsrc/bram_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/cpu_v2_3/src
+make -C backup_controller/libsrc/cpu_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/gpio_v4_0/src
+make -C backup_controller/libsrc/gpio_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/intc_v3_3/src
+make -C backup_controller/libsrc/intc_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/llfifo_v4_0/src
+make -C backup_controller/libsrc/llfifo_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/standalone_v5_00/src
+make -C backup_controller/libsrc/standalone_v5_00/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in backup_controller/libsrc/tmrctr_v3_0/src
+make -C backup_controller/libsrc/tmrctr_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in backup_controller/libsrc/bram_v4_0/src
+make -C backup_controller/libsrc/bram_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in backup_controller/libsrc/cpu_v2_3/src
+make -C backup_controller/libsrc/cpu_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in backup_controller/libsrc/gpio_v4_0/src
+make -C backup_controller/libsrc/gpio_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in backup_controller/libsrc/intc_v3_3/src
+make -C backup_controller/libsrc/intc_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in backup_controller/libsrc/llfifo_v4_0/src
+make -C backup_controller/libsrc/llfifo_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling llfifo
+Running Make libs in backup_controller/libsrc/standalone_v5_00/src
+make -C backup_controller/libsrc/standalone_v5_00/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in backup_controller/libsrc/tmrctr_v3_0/src
+make -C backup_controller/libsrc/tmrctr_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-reorder -mxl-barrel-shift -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+Compiling tmrctr
+Finished building libraries
+
+19:54:44 Build Finished (took 3s.225ms)
+

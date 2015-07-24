@@ -1,3 +1,6 @@
 1435635018613	Delete resource 'hw_platform_0'
 1435635932120	Delete resource 'app_cpu0/src/app_cpu0.c'
 1435635957190	Delete resource 'app_cpu1/src/app_cpu1.c'
+1435690120932	Rename resource 'UART_H'
+1435690134242	Delete resource 'UART_H_bsp'
+1435690144307	Delete resource 'uart_test2'

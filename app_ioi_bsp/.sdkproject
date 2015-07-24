@@ -1,0 +1,4 @@
+THIRPARTY=false
+HW_PROJECT_REFERENCE=hw_platform_0
+PROCESSOR=IO_intermediary
+MSS_FILE=system.mss

@@ -14,7 +14,8 @@ src/production_controller.o src/production_controller.d: \
  ../src/pendulum_control.h ../src/utilities/fifo_queue.h \
  ../../freertos_zynq_bsp_amp/ps7_cortexa9_1/include/xparameters.h \
  /home/controls/TAIGA/Rotary-Inverted-Pendulum/Rotary-Inverted-Pendulum.sdk/global_includes/taiga_rip_parameters.h \
- ../src/utilities/axi_gpio.h
+ ../src/utilities/axi_gpio.h \
+ ../../freertos_zynq_bsp_amp/ps7_cortexa9_1/include/sleep.h
 
 ../src/production_controller.h:
 
@@ -49,3 +50,5 @@ src/production_controller.o src/production_controller.d: \
 /home/controls/TAIGA/Rotary-Inverted-Pendulum/Rotary-Inverted-Pendulum.sdk/global_includes/taiga_rip_parameters.h:
 
 ../src/utilities/axi_gpio.h:
+
+../../freertos_zynq_bsp_amp/ps7_cortexa9_1/include/sleep.h:

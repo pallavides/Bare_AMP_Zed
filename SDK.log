@@ -12,3 +12,171 @@
 23:31:50 INFO  : Saving repository preferences.
 23:33:32 INFO  : BSP Project P/standalone_bsp_amp has been successfully migrated.
 23:50:23 INFO  : BSP Project P/freertos_zynq_bsp_amp has been successfully migrated.
+14:25:26 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zybo-210279539496A on TCP:127.0.0.1:3121
+
+
+14:25:26 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-Zybo-210279539496A on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:379)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:288)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+14:28:13 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:28:45 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+14:28:47 INFO  : XSDB server has started successfully.
+14:28:49 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+14:34:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+14:34:39 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+14:35:13 INFO  : ps7_init is completed.
+14:35:13 INFO  : ps7_post_config is completed.
+14:35:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:36:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:41:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+14:41:39 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+14:41:52 INFO  : ps7_init is completed.
+14:41:53 INFO  : ps7_post_config is completed.
+14:41:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:50:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:50:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:50:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+17:50:33 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+17:50:44 INFO  : ps7_init is completed.
+17:50:44 INFO  : ps7_post_config is completed.
+17:50:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:00:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+12:04:11 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+12:04:26 INFO  : ps7_init is completed.
+12:04:26 INFO  : ps7_post_config is completed.
+12:04:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:23:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:38:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:40:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:40:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+12:40:50 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+12:41:00 INFO  : ps7_init is completed.
+12:41:00 INFO  : ps7_post_config is completed.
+12:41:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:54:25 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+15:54:25 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+15:54:26 INFO  : XSDB server has started successfully.
+16:11:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:11:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+16:11:59 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+16:12:40 INFO  : ps7_init is completed.
+16:12:40 INFO  : ps7_post_config is completed.
+16:12:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:13:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:39:42 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:34:43 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+14:34:43 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:34:44 INFO  : XSDB server has started successfully.
+15:07:28 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+15:08:29 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:08:47 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+15:08:52 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:08:53 INFO  : XSDB server has started successfully.
+15:09:29 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+15:09:50 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:10:03 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+15:10:08 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:10:09 INFO  : XSDB server has started successfully.
+11:46:22 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+11:46:27 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:46:28 INFO  : XSDB server has started successfully.
+11:58:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+11:58:22 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/TAIGA_wrapper.bit"
+13:01:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:01:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248446392" && level==0} -index 1' command is executed.
+13:01:26 INFO  : FPGA configured successfully with bitstream "/home/controls/Pallavi/Bare_AMP_Zed/hw_platform_0/download.bit"
+17:09:54 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+17:10:00 INFO  : ps7_init is completed.
+17:10:00 INFO  : ps7_post_config is completed.
+17:10:01 INFO  : Processor reset is completed for IO_intermediary
+17:13:37 INFO  : ps7_init is completed.
+17:13:37 INFO  : ps7_post_config is completed.
+17:13:38 INFO  : Processor reset is completed for IO_intermediary
+17:14:40 INFO  : ps7_init is completed.
+17:14:40 INFO  : ps7_post_config is completed.
+17:14:40 INFO  : Processor reset is completed for IO_intermediary
+17:16:02 INFO  : ps7_init is completed.
+17:16:02 INFO  : ps7_post_config is completed.
+17:16:03 INFO  : Processor reset is completed for IO_intermediary
+17:54:02 INFO  : ps7_init is completed.
+17:54:02 INFO  : ps7_post_config is completed.
+17:54:02 INFO  : Processor reset is completed for IO_intermediary
+17:58:17 INFO  : ps7_init is completed.
+17:58:17 INFO  : ps7_post_config is completed.
+17:58:18 INFO  : Processor reset is completed for IO_intermediary
+17:59:10 INFO  : ps7_init is completed.
+17:59:10 INFO  : ps7_post_config is completed.
+17:59:10 INFO  : Processor reset is completed for IO_intermediary
+18:03:05 INFO  : ps7_init is completed.
+18:03:06 INFO  : ps7_post_config is completed.
+18:03:06 INFO  : Processor reset is completed for IO_intermediary
+18:05:02 INFO  : Processor reset is completed for IO_intermediary
+18:08:28 INFO  : ps7_init is completed.
+18:08:28 INFO  : ps7_post_config is completed.
+18:08:29 INFO  : Processor reset is completed for IO_intermediary
+18:09:24 INFO  : ps7_init is completed.
+18:09:24 INFO  : ps7_post_config is completed.
+18:09:25 INFO  : Processor reset is completed for IO_intermediary
+18:17:10 INFO  : ps7_init is completed.
+18:17:10 INFO  : ps7_post_config is completed.
+18:17:10 INFO  : Processor reset is completed for IO_intermediary
+17:26:21 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+17:26:26 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+17:26:27 INFO  : XSDB server has started successfully.
+19:58:33 INFO  : Refreshed build settings on project app_production
+19:58:33 INFO  : Refreshed build settings on project app_production_new
+13:08:56 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+13:09:02 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+13:09:03 INFO  : XSDB server has started successfully.
+16:53:32 INFO  : ps7_init is completed.
+16:53:32 INFO  : ps7_post_config is completed.
+16:53:32 INFO  : Processor reset is completed for backup_controller
+12:46:17 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:46:36 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:46:40 INFO  : XSDB server has started successfully.
+12:46:43 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+15:21:48 INFO  : No changes in MSS file content so not generating sources.
+15:12:08 INFO  : Restoring local repository preferences: 
+		 /home/controls/Pallavi/xapp1079/design/work/Modified_Standalone_V_5_0
+		 /home/controls/Pallavi/earlyaccess_xapp1079_2014.2/design/work/FreeRTOS_new
+15:12:08 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+15:12:09 INFO  : XSDB server has started successfully.

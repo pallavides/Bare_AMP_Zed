@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 10 resources" deleteContents="false" description="Delete 10 resources" element1="/app_ioi/src/utilities" element10="/app_ioi/src/trigger_mechanisms.h" element2="/app_ioi/src/ioi_handler.c" element3="/app_ioi/src/ioi_handler.h" element4="/app_ioi/src/main_ioi.c" element5="/app_ioi/src/pendulum_control.c" element6="/app_ioi/src/pendulum_control.h" element7="/app_ioi/src/supervisory_communication.c" element8="/app_ioi/src/supervisory_communication.h" element9="/app_ioi/src/trigger_mechanisms.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="10" stamp="1437678928658"/>
+</session>

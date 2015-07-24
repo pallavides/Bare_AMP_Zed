@@ -9,6 +9,7 @@
 #include "pendulum_control.h"
 #include "utilities/axi_gpio.h"
 #include "utilities/fifo_queue.h"
+#include "sleep.h"
 
 
 float calculateKalmanControlSignal(PlantParameters *params);
@@ -31,10 +32,12 @@ void startProductionControl(){
 		plantParams.xhat[i] = 0.;
 	}
 	plantParams.cycle_count = 0;
-
+//	xil_printf("Waiting\n");
+//	usleep(10000000);
 	ProductionControlTimer = xTimerCreate((const signed char *)"Production Controller Timer",1,pdTRUE,(void *) NULL, production_control_timer);
 	xTimerStart(ProductionControlTimer, 0);
 	xil_printf("Production Controller Timer started\n");
+//	print("Production Controller Timer started\n");
 }
 
 void production_control_timer(xTimerHandle pxTimer){
